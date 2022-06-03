@@ -1,0 +1,41 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.top-banner {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-pokeball {
+    height: auto;
+    width: 100px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.links-container {
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
