@@ -10,19 +10,13 @@ body {
     display: flex;
 }
 
-.top-banner {
+.header {
     background-color: #1f2937;
     box-shadow: 0 0 25px black;
     margin: 10px;
 }
 
-.welcome-msg {
-    text-shadow: 0 0 10px white;
-    justify-self: flex-start;
-    flex-grow: 1;
-}
-
-.top-banner {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,6 +26,12 @@ body {
     width: 100px;
     border-radius: 30px;
     padding: 10px;
+}
+
+.welcome-msg {
+    text-shadow: 0 0 10px white;
+    justify-self: flex-start;
+    flex-grow: 1;
 }
 
 ul {
