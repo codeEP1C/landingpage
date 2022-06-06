@@ -12,10 +12,8 @@ body {
 
 .header1, .header2 {
     background-color: #1f2937;
-    
     margin: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -24,6 +22,7 @@ body {
 }
 
 h2 {
+    text-shadow: 0 0 10px red;
     color: white;
     font-size: 40px;
     text-align: center;
@@ -34,6 +33,20 @@ p2 {
     font-size: 30px;
     display: flex;
     text-align: center;
+}
+
+button {
+    padding: 20px 32px;
+    background-color: lightcoral;
+    border: black;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.button-donate {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .header2-img {
@@ -55,10 +68,10 @@ p2 {
 }
 
 .welcome-msg {
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 10px red;
+    color: white;
     justify-self: flex-start;
     flex-grow: 1;
- 
 }
 
 .header-body {
