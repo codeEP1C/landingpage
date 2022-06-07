@@ -43,7 +43,7 @@ p2 {
 button {
     padding: 20px 32px;
     background-color: lightcoral;
-    border: black;
+    box-shadow: lightcoral 0 0 10px;
     border-radius: 30px;
     font-size: 20px;
 }
@@ -64,19 +64,6 @@ button {
     width: 450px;
     flex: 2;
     margin-left: 50px;
-}
-
-.photo1-caption {
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: -30px;
-}
-
-.photo1-link {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
 }
 
 .logo-pokeball {
@@ -112,4 +99,39 @@ a {
     text-decoration: none;
     color: white;
     font-weight: 500;
+}
+
+.photo1-caption, .bg-caption {
+    color: white;
+}
+
+.bg-link {
+    text-decoration: underline;
+}
+
+.photo1-caption {
+    justify-content: center;
+    margin-top: -30px;
+    display: flex;
+}
+
+.photo1-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.layer-bginfo {
+    background-color: #1f2937;
+    display: flex;
+    width: 290px;
+    padding: 15px;
+    margin: 10px;
+    align-self: center;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: lightcoral 0 0 10px;
+    
 }
