@@ -83,7 +83,6 @@ button {
     justify-self: flex-start;
 }
 
-
 ul {
     list-style-type: none;
     display: flex;
@@ -133,5 +132,18 @@ a {
     justify-content: center;
     border-radius: 25px;
     box-shadow: lightcoral 0 0 10px;
-    
+}
+
+.container-content {
+    background-color: black;
+    margin: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.content-photos {
+    max-width: 200px;
+    max-height: 200px;
 }
