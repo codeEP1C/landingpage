@@ -17,6 +17,11 @@ body {
     align-items: center;
 }
 
+.header-link {
+    font-size: 30px;
+    text-decoration: none;
+}
+
 .header2 {
     margin-top: -20px;
 }
@@ -55,10 +60,23 @@ button {
     padding: 50px;
 }
 
-.header2-msg {
+.header2-section1 {
     width: 450px;
     flex: 2;
     margin-left: 50px;
+}
+
+.photo1-caption {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.photo1-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
 }
 
 .logo-pokeball {
@@ -93,6 +111,5 @@ li {
 a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
     font-weight: 500;
 }
