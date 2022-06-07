@@ -100,7 +100,7 @@ a {
     font-weight: 500;
 }
 
-.photo1-caption, .bg-caption {
+.photo-caption, .bg-caption {
     color: white;
 }
 
@@ -108,13 +108,13 @@ a {
     text-decoration: underline;
 }
 
-.photo1-caption {
+.photo-caption {
     justify-content: center;
     margin-top: -30px;
     display: flex;
 }
 
-.photo1-link {
+.photo-link {
     display: flex;
     justify-content: center;
     text-decoration: underline;
@@ -137,13 +137,37 @@ a {
 .container-content {
     background-color: black;
     margin: 10px;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
+    margin-top: -15px;
 }
 
 .content-photos {
-    max-width: 200px;
-    max-height: 200px;
+    border-radius: 50px;;
+}
+
+.content-text {
+    color: white;
+    text-shadow: 0 0 5px red;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.content-by {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content-heading {
+    text-align: center;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
