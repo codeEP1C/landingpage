@@ -224,3 +224,22 @@ a {
     margin: 30px;
     width: 150px;
 }
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    justify-content: center;
+    background-color: black;
+    height: 5vh;
+}
+
+.copyright-info {
+    color: white;
+    font-size: 20px;
+}
+
+.copyright-info2 {
+    color: white;
+    font-size: 20px;
+}
