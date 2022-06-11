@@ -40,7 +40,7 @@ p2 {
     text-align: center;
 }
 
-button {
+.btn-support {
     padding: 20px 32px;
     background-color: lightcoral;
     box-shadow: lightcoral 0 0 10px;
@@ -136,13 +136,12 @@ a {
 
 .container-content {
     background-color: black;
-    margin: 10px;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: -15px;
+    margin-top: -50px;
 }
 
 .content-photos {
@@ -166,8 +165,62 @@ a {
 .content-heading {
     text-align: center;
     background-color: black;
-    margin: 10px;
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+.container-quote {
+    background: url('./resources/section-quote.jpg') no-repeat center fixed;
+    background-size: cover;
+    background-position: 0px 10px;
+    height: 55vh;
+    background-color: #1f2937;
+}
+
+.quote, .quoteby {
+    color: white;
+    font-size: 80px;
+}
+
+.quote {
+    display: flex;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.quoteby {
+    display: flex;
+    justify-content: flex-end;
+    margin: 120px;
+    margin-top: -20px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 30vh;
+}
+
+.container-signup {
+    display: flex;
+    background-color: darkgray;
+    width: 800px;
+    border-radius: 0 10px;
+}
+.info-signup {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+
+.button-signup {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    width: 150px;
 }
