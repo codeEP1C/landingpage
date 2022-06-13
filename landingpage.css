@@ -174,7 +174,7 @@ a {
     background: url('./resources/section-quote.jpg') no-repeat center fixed;
     background-size: cover;
     background-position: 0px 10px;
-    line-height: 70px;
+    height: 500px;
     background-color: #1f2937;
 }
 
@@ -231,7 +231,7 @@ a {
     align-items: center;;
     justify-content: center;
     background-color: black;
-    height: 5vh;
+    height: 50px;
 }
 
 .copyright-info {
